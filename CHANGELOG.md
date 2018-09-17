@@ -1,5 +1,6 @@
 ## Master
 
+* Delete the sprockets temp directory for a smaller runtime slug if they are not building assets at runtime (https://github.com/heroku/heroku-buildpack-ruby/pull/812)
 * Do not add the `jobs:work` command if an app does not have that rake task available (https://github.com/heroku/heroku-buildpack-ruby/pull/810)
 
 ## v193 (9/14/2018)
