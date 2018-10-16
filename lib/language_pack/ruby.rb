@@ -359,6 +359,7 @@ SHELL
       return false unless ruby_version
 
       installer = LanguagePack::Installers::RubyInstaller.installer(ruby_version).new(@stack)
+      p installer
 
       if ruby_version.build?
         installer.fetch_unpack(ruby_version, build_ruby_path, true)
